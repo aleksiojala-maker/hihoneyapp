@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Hi Honey Rental Marketplace
 
-# Run and deploy your AI Studio app
+A sustainable, inclusivity-focused bridal rental marketplace. Rent luxury bridal wear items (veils, dresses, accessories) from local Hi Honey studios.
 
-This contains everything you need to run your app locally.
+## Live Demo
 
-View your app in AI Studio: https://ai.studio/apps/drive/1lyCSujfuZtqAT3JwboObYcIxTSLsNmOL
+Visit the live site: https://aleksiojala-maker.github.io/hihoneyapp/
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Run the app:
+   ```bash
+   npm run dev
+   ```
+
+3. Open http://localhost:3000 in your browser
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist/` folder.
+
+## Features
+
+- Browse and filter rental products
+- Interactive availability calendar
+- Shopping cart with checkout
+- Admin dashboard with analytics
+- Mobile-responsive design
