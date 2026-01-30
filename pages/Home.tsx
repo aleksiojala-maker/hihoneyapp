@@ -8,12 +8,12 @@ interface HomeProps {
 }
 
 const Home: React.FC<HomeProps> = ({ setSelectedStoreId }) => {
-  // Map categories to specific provided images
+  // Map categories to public Unsplash images
   const categoryImages: Record<string, string> = {
-    'Veils': 'https://cdn.usegalileo.ai/sdxl10/d8958619-8664-4422-9654-718229040828.png',
-    'Dresses': 'https://cdn.usegalileo.ai/sdxl10/05537064-a690-4824-9b24-f78082987019.png',
-    'Accessories': 'https://cdn.usegalileo.ai/sdxl10/aa822904-0828-412e-8360-128229040828.png',
-    'Sashes': 'https://cdn.usegalileo.ai/sdxl10/v8229040-828-412e-8360-128229040828.png'
+    'Veils': 'https://images.unsplash.com/photo-1594552072238-b8a33785b261?w=800&q=80',
+    'Dresses': 'https://images.unsplash.com/photo-1594463750939-ebb28c3f7f75?w=800&q=80',
+    'Accessories': 'https://images.unsplash.com/photo-1546167889-0d259e4dc4f4?w=800&q=80',
+    'Sashes': 'https://images.unsplash.com/photo-1595407753234-0882f1e77954?w=800&q=80'
   };
 
   return (
@@ -62,16 +62,16 @@ const Home: React.FC<HomeProps> = ({ setSelectedStoreId }) => {
             
             <div className="hidden lg:block relative">
               <div className="relative h-[500px] w-full rounded-t-[150px] rounded-b-[20px] overflow-hidden shadow-2xl border-4 border-white">
-                <img 
-                  src="https://cdn.usegalileo.ai/sdxl10/e3124707-8898-4687-843c-62282292357c.png" 
-                  alt="Brides celebrating" 
+                <img
+                  src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=80"
+                  alt="Brides celebrating"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-white p-2 rounded-lg shadow-xl max-w-xs border border-gray-100 flex items-center gap-3">
                  <div className="w-16 h-16 rounded overflow-hidden">
-                   <img 
-                      src="https://cdn.usegalileo.ai/sdxl10/24855013-1a06-4740-978d-192b0f4f9f40.png"
+                   <img
+                      src="https://images.unsplash.com/photo-1595407753234-0882f1e77954?w=800&q=80"
                       alt="Happy bride"
                       className="w-full h-full object-cover"
                    />

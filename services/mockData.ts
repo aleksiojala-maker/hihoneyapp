@@ -11,7 +11,7 @@ export const STORES: Store[] = [
     description: 'Our flagship studio located in the heart of Oulunkylä. We offer a full range of alterations, custom bridal wear, and our exclusive rental collection.',
     hours: 'Tue-Fri 10-17, Sat by appointment',
     phone: '+358 40 123 4567',
-    image: 'https://cdn.usegalileo.ai/sdxl10/72722004-8919-4809-9069-425121666112.png'
+    image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=80'
   },
   { 
     id: 'espoo-rebridal', 
@@ -21,19 +21,19 @@ export const STORES: Store[] = [
     description: 'Located inside ReBridal, focusing on pre-loved gowns and accessories. Pick up your rentals while browsing sustainable fashion.',
     hours: 'Mon-Fri 10-20, Sat 10-18',
     phone: '+358 50 987 6543',
-    image: 'https://cdn.usegalileo.ai/sdxl10/39474751-4091-4775-8120-655452485551.png'
+    image: 'https://images.unsplash.com/photo-1549417229-7686ac5595fd?w=800&q=80'
   },
 ];
 
-// Product Images Pool
+// Product Images Pool - Using public Unsplash images
 const IMAGES = {
-  veil1: 'https://cdn.usegalileo.ai/sdxl10/d8958619-8664-4422-9654-718229040828.png',
-  veil2: 'https://cdn.usegalileo.ai/sdxl10/1f4c7182-2904-4082-8229-0408281f4c71.png',
-  veil3: 'https://cdn.usegalileo.ai/sdxl10/68196655-8968-4530-97b7-6b281f6c6d2c.png',
-  veil4: 'https://cdn.usegalileo.ai/sdxl10/e3124707-8898-4687-843c-62282292357c.png',
-  detail1: 'https://cdn.usegalileo.ai/sdxl10/24855013-1a06-4740-978d-192b0f4f9f40.png',
-  dress1: 'https://cdn.usegalileo.ai/sdxl10/05537064-a690-4824-9b24-f78082987019.png',
-  acc1: 'https://cdn.usegalileo.ai/sdxl10/aa822904-0828-412e-8360-128229040828.png',
+  veil1: 'https://images.unsplash.com/photo-1594552072238-b8a33785b261?w=800&q=80',
+  veil2: 'https://images.unsplash.com/photo-1522653216850-4f1415a174fb?w=800&q=80',
+  veil3: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80',
+  veil4: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=80',
+  detail1: 'https://images.unsplash.com/photo-1595407753234-0882f1e77954?w=800&q=80',
+  dress1: 'https://images.unsplash.com/photo-1594463750939-ebb28c3f7f75?w=800&q=80',
+  acc1: 'https://images.unsplash.com/photo-1546167889-0d259e4dc4f4?w=800&q=80',
 };
 
 export let PRODUCTS: Product[] = [
